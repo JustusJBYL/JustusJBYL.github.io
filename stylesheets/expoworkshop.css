@@ -9,6 +9,12 @@ body, html {
     width: 100%;
 }
 
+.top{
+  width:100%;
+  z-index:1;
+  position:relative;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -57,14 +63,16 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-color: black;
+  background-color: white;
+  color:black;
   min-height: 100%;
   }
   
   /* Second image (Portfolio) */
   .bgimg-2 {
-    background-color: black;
-    min-height: 400px;
+    background-color: white;
+    color:black;
+    min-height: 100px;
   }
 
 .w3-wide {letter-spacing: 10px;}
@@ -91,7 +99,8 @@ body, html {
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2 {
     background-attachment: scroll;
-    min-height: 400px;
+    min-height: 100px;
+    color:black;
   }
 }
 
