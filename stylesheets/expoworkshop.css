@@ -10,7 +10,8 @@ body, html {
 }
 
 .padded{
-  padding: 16px;
+  padding-left: 5%;
+  padding-right:5%;
 }
 
 .top{
