@@ -1,7 +1,7 @@
 <!-- modify this form HTML and place wherever you want your form -->
 <!DOCTYPE html>
 <html>
-<title>Shockbob Intro-page</title>
+<title>Contact us | Team justus</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="stylesheets/w3style.css">
@@ -14,26 +14,43 @@
 
 <div class="w3-content w3-container w3-padding-64">
   <div>
-    <div class="w3-col m3" style="background-color:red">
-      <p>Expo is built upon react and javascript allowing it to be deployed to all platforms after passing through an interpreter.</p>
+    <h2>Contact Us</h2>
+    <div class="w3-col m4">
+      <p>If you have information that can help improve our guides, or wish to partner with us in some capacity, we'd love to hear from you!
+
+        Please fill out this form with your enquiry and contact details and we will be in touch. As we are volunteers, please be patient in awaiting a reply.
+
+        We are also looking for general feedback about our site. If you have some time, please let us know your thoughts!
+      </p>
     </div>
-    <div class="w3-col m9" class="padded" style="background-color:blue">
+
+    <div class="w3-col m8 padded">
       <form
       action="https://formspree.io/f/xayvkwnv"
       method="POST"
+
+      id="contact"
     >
+    <label>
+      How should we address you?
+      <input type="name" name="name" placeholder="Your name" style="width:90%">
+    </label>
+    <br><br>
       <label>
-        <input type="email" name="email" placeholder="Your email">
+        Youe Email
+        <input type="email" name="email" placeholder="Your email" style="width:90%">
       </label>
       <br><br>
       <label>
-        <textarea name="message" placeholder="your message"></textarea>
+        What can we help you with?
+        <textarea name="message" placeholder="Your message" style="width:90%"></textarea>
       </label>
       <br><br>
       <!-- your other form fields go here -->
       <button type="submit">Send</button>
     </form>
     </div>
+
   </div>
 </div>
 
