@@ -9,6 +9,10 @@ body, html {
     width: 100%;
 }
 
+.padded{
+  padding: 16px;
+}
+
 .top{
   width:100%;
   z-index:1;

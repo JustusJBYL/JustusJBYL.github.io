@@ -12,21 +12,30 @@
 
 <div id="navbar"></div>
 
-<form
-  action="https://formspree.io/f/xayvkwnv"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<div class="w3-content w3-container w3-padding-64">
+  <div>
+    <div class="w3-col m3" style="background-color:red">
+      <p>Expo is built upon react and javascript allowing it to be deployed to all platforms after passing through an interpreter.</p>
+    </div>
+    <div class="w3-col m9" class="padded" style="background-color:blue; padding: 16px;">
+      <form
+      action="https://formspree.io/f/xayvkwnv"
+      method="POST"
+    >
+      <label>
+        <input type="email" name="email" placeholder="Your email">
+      </label>
+      <br><br>
+      <label>
+        <textarea name="message" placeholder="your message"></textarea>
+      </label>
+      <br><br>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+    </div>
+  </div>
+</div>
 
 <div id="footer"></div>
 <script src='scripts/jQuery.js'></script>
