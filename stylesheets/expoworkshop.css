@@ -40,21 +40,28 @@ body, html {
   padding-right: 2%;
 }
 
+.navbar-stylers{
+  height: inherit;
+  align-items: center;
+}
+
 .img-fit{
   height:100%;
-
+  float:left;
+  padding-left: 16px;
 }
 
 .top{
-  height: 45px;
+  height: 60px;
   width:100%;
   z-index:2;
   position:absolute;
   opacity: 1;
+  align-items: center;
 }
 
 .top-occupy{
-  height:45px;
+  height:60px;
   width:100%; 
 }
 
