@@ -5,6 +5,27 @@ body, html {
   line-height: 1.8;
 }
 
+.imageholder{
+  height: fit-content;
+}
+
+.imagestyling{
+  width:100%;
+}
+
+.aboutus1holder{
+  width :100%;
+  background-size: contain;
+  background-image: url("../images/expoworkshop/aboutus1.jpg");
+}
+
+.aboutus2holder{
+  width :100%;
+  background-size: contain;
+  background-image: url("../images/expoworkshop/aboutus2.jpg");
+  height: fit-content;
+}
+
 .insertedimage{
     width: 100%;
 }
