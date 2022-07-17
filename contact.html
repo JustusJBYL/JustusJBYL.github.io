@@ -1,6 +1,7 @@
 <!-- modify this form HTML and place wherever you want your form -->
 <!DOCTYPE html>
 <html>
+  <head></head> 
 <title>Contact us | Team justus</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,19 +13,18 @@
 
 <div id="navbar"></div>
 
-<div class="w3-content w3-container w3-padding-64">
+<div class="w3-content w3-container w3-padding-64 mainholder">
   <div>
     <div class="w3-col m4">
-      <h1>Contact Us</h1>
-      <p>If you have information that can help improve our guides, or wish to partner with us in some capacity, we'd love to hear from you!
-
-        Please fill out this form with your enquiry and contact details and we will be in touch. As we are volunteers, please be patient in awaiting a reply.
-
-        We are also looking for general feedback about our site. If you have some time, please let us know your thoughts!
+      <h1 class="holderitems">Contact Us</h1>
+      <p style="font-size: 16px;" class='holderitems'>If you have suggestions, or wish to partner with us, we'd love to hear from you! <br><br>
+        If you have some time, please also let us know your thoughts on Team Justus through this feedback form. <br><br>
+        Please fill this form and we will be in touch. As we are volunteers, please be patient in awaiting a reply. <br><br>
+        Your input is very important to us!
       </p>
     </div>
 
-    <div class="w3-col m8 padded">
+    <div class="w3-col m8 padded holderitems">
       <form
       action="https://formspree.io/f/xayvkwnv"
       method="POST"
@@ -32,18 +32,18 @@
       id="contact"
     >
     <label>
-      How should we address you?
-      <input type="name" name="name" placeholder="Your name" style="width:90%">
+      <p class='holderformtext'>How should we address you?*</p>
+      <input type="name" name="name" style="width:100%">
     </label>
     <br><br>
       <label>
-        Youe Email
-        <input type="email" name="email" placeholder="Your email" style="width:90%">
+        <p class='holderformtext'>Your Email*</p>
+        <input type="email" name="email" style="width:100%">
       </label>
       <br><br>
       <label>
-        What can we help you with?
-        <textarea name="message" placeholder="Your message" style="width:90%"></textarea>
+        <p class='holderformtext'>Message*</p>
+        <textarea name="message"style="width:100%;"></textarea>
       </label>
       <br><br>
       <!-- your other form fields go here -->
