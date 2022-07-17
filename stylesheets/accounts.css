@@ -1,8 +1,8 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   line-height: 1.8;
 }
 
@@ -10,14 +10,45 @@ body, html {
   width:331px;
   height: 330px;
   border-radius: 30px;
+  margin:auto;
+  position:relative;
 }
+
+.subbuttonclass{
+  border-radius:30px;
+  width: 299px;
+  height:80px;
+  position: absolute;
+  top:215px;
+  left:17px;
+  text-align: center;
+}
+
+
 
 .imageholder{
   height: fit-content;
+  width: 332px;
+  text-align:center;
+  margin:auto;
+}
+
+.mainholder{
+  width: 332px;
+  text-align: center;
+  margin: auto;
+  margin-top:8px;
+  margin-bottom: 8px;
+}
+
+.holderitems{
+  margin-top:8px;
+  margin-bottom:8px;
 }
 
 .ontheright{
   float: right!important;
+  text-align: right!important;
 }
 
 .imagestyling{
@@ -64,6 +95,8 @@ body, html {
   position:absolute;
   opacity: 1;
   align-items: center;
+  background-color: black;
+  color:white
 }
 
 .top-occupy{
@@ -156,6 +189,17 @@ body, html {
 
 .gamedescription{
   height: 400px;
+}
+
+.vpadding{
+  padding-top:8px!important;
+  padding-bottom: 8px!important;
+}
+
+.textcontainer{
+  height: 40px;
+  color: black;
+  margin: 20px;
 }
 
 @media only screen and (max-device-width: 1600px) {
