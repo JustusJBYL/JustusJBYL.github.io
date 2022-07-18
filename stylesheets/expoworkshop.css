@@ -12,6 +12,7 @@ body, html {
 
 .ontheright{
   float: right!important;
+  text-align: right!important;
 }
 
 .imagestyling{
