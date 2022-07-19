@@ -37,13 +37,14 @@ body, html {
   width: 331px;
   text-align: center;
   margin: auto;
-  margin-top:8px;
+  margin-top:60px;
   margin-bottom: 8px;
 }
 
 .holderitems{
-  padding-top:8px;
-  padding-bottom:8px;
+  padding-top:25px;
+  padding-bottom:25px;
+  margin: 0px;
 }
 
 .ontheright{
@@ -90,6 +91,7 @@ body, html {
 
 .top{
   height: 60px;
+  top: 0px;
   width:100%;
   z-index:2;
   position:absolute;
@@ -100,7 +102,10 @@ body, html {
 }
 
 .top-occupy{
+  top: 0px;
+  background-color: black;
   height:60px;
+  position:absolute;
   width:100%; 
 }
 
@@ -192,8 +197,8 @@ body, html {
 }
 
 .vpadding{
-  padding-top:8px!important;
-  padding-bottom: 8px!important;
+  padding-top:25px!important;
+  padding-bottom: 25px!important;
 }
 
 .textcontainer{
