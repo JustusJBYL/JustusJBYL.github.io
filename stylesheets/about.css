@@ -167,6 +167,14 @@ body, html {
   }
 }
 
+.mainholder{
+  width: 331px;
+  text-align: center;
+  margin: auto;
+  margin-top:60px;
+  margin-bottom: 8px;
+}
+
 @media (max-width: 800px) {
   .mobileitem{
     width: 331px!important;
@@ -174,11 +182,11 @@ body, html {
   }
 
   .mainholder{
-    margin:auto;
-    text-align:center;
-    width:331px!important;
-    padding: 0px!important;
-    padding-top:60px!important;
+    width: 331px;
+    text-align: center;
+    margin: auto;
+    margin-top:60px;
+    margin-bottom: 8px;
   }
 
   .holderitems{
