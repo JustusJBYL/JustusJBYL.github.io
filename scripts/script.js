@@ -47,48 +47,6 @@ function toggleFunction() {
     }
 }
 
-function makeattackcome(element){
-    var firstattack = document.getElementById('1statk');
-    var secondattack = document.getElementById('2ndatk');
-    var thirdattack = document.getElementById('3rdatk');
-    thirdattack.style.display = 'none';
-    secondattack.style.display ='none';
-    firstattack.style.display = 'none';
-}
-
-function make3rdattackcome(element){
-    var firstattack = document.getElementById('1statk');
-    var secondattack = document.getElementById('2ndatk');
-    var thirdattack = document.getElementById('3rdatk');
-    var preface = document.getElementById('skills-preface');
-    thirdattack.style.display = 'block';
-    secondattack.style.display ='none';
-    firstattack.style.display = 'none';
-    preface.style.display ='none';
-}
-
-function make2ndattackcome(element){
-    var firstattack = document.getElementById('1statk');
-    var secondattack = document.getElementById('2ndatk');
-    var thirdattack = document.getElementById('3rdatk');
-    var preface = document.getElementById('skills-preface');
-    thirdattack.style.display = 'none';
-    secondattack.style.display ='block';
-    firstattack.style.display = 'none';
-    preface.style.display ='none';
-}
-
-function make1stattackcome(element){
-    var firstattack = document.getElementById('1statk');
-    var secondattack = document.getElementById('2ndatk');
-    var thirdattack = document.getElementById('3rdatk');
-    var preface = document.getElementById('skills-preface');
-    thirdattack.style.display = 'none';
-    secondattack.style.display ='none';
-    firstattack.style.display = 'block';
-    preface.style.display ='none';
-}
-
 $(document).ready(function(){
    
     $('#navbar').load("navbar.html");
