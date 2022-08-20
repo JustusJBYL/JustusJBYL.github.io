@@ -1,194 +1,211 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: white;
-  background-color: black;
-  line-height: 1.8;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: "Poppins", "sans-serif";
 }
 
-.imageholder{
-  height: fit-content;
+body,
+html {
+    height: 100%;
+    color: white;
+    background-color: black;
+    line-height: 1.8;
 }
 
-.ontheright{
-  float: right!important;
-  text-align: right!important;
+.imageholder {
+    height: fit-content;
 }
 
-.imagestyling{
-  width:100%;
+.ontheright {
+    float: right!important;
+    text-align: right!important;
 }
 
-.aboutus1holder{
-  width :100%;
-  background-size: contain;
-  background-image: url("../images/expoworkshop/aboutus1.jpg");
-}
-
-.aboutus2holder{
-  width :100%;
-  background-size: contain;
-  background-image: url("../images/expoworkshop/aboutus2.jpg");
-  height: fit-content;
-}
-
-.insertedimage{
+.imagestyling {
     width: 100%;
 }
 
-.padded{
-  padding-left: 2%;
-  padding-right: 2%;
+.aboutus1holder {
+    width: 100%;
+    background-size: contain;
+    background-image: url("../images/expoworkshop/aboutus1.jpg");
 }
 
-.navbar-stylers{
-  height: inherit;
-  align-items: center;
+.aboutus2holder {
+    width: 100%;
+    background-size: contain;
+    background-image: url("../images/expoworkshop/aboutus2.jpg");
+    height: fit-content;
 }
 
-.img-fit{
-  height:100%;
-  float:left;
-  padding-left: 16px;
+.insertedimage {
+    width: 100%;
 }
 
-.top{
-  height: 60px;
-  width:100%;
-  z-index:2;
-  position:absolute;
-  opacity: 1;
-  align-items: center;
+.padded {
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
-.top-occupy{
-  height:60px;
-  width:100%; 
+.navbar-stylers {
+    height: inherit;
+    align-items: center;
+}
+
+.img-fit {
+    height: 100%;
+    float: left;
+    padding-left: 16px;
+}
+
+.top {
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    opacity: 1;
+    align-items: center;
+}
+
+.top-occupy {
+    height: 60px;
+    width: 100%;
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 140px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -75px;
-  opacity: 0;
-  transition: opacity 0.3s;
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
+
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.bgimg-1,
+.bgimg-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 /* First image (Logo. Full height) */
+
 .bgimg-1 {
-  background-color: white;
-  color:black;
-  min-height: 100%;
-  background-image: url("../images/expoworkshop/filler.jpeg");
-  }
-  .bgimg-2 {
     background-color: white;
-    color:black;
+    color: black;
+    min-height: 100%;
+    background-image: url("../images/expoworkshop/filler.jpeg");
+}
+
+.bgimg-2 {
+    background-color: white;
+    color: black;
     min-height: 10%;
-    }
-  
-  /* Second image (Portfolio) */
-  .bgimg-2 {
+}
+
+
+/* Second image (Portfolio) */
+
+.bgimg-2 {
     background-color: white;
-    color:black;
+    color: black;
     min-height: 100px;
-  }
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-.preview-image{
-  height: 90%;
-  width: 90%;
-  object-fit: contain;
-}
-.searchbarvalues{
-  display: none
-  }
-
-.captionbox{
-  width: 20%;
-  height: 30%;
 }
 
-.gamedescription{
-  height: 400px;
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+.preview-image {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.searchbarvalues {
+    display: none
+}
+
+.captionbox {
+    width: 20%;
+    height: 30%;
+}
+
+.gamedescription {
+    height: 400px;
 }
 
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2 {
-    background-attachment: scroll;
-    height: 100%;
-    color:black;
-  }
-  .bgimg-2 {
-    background-attachment: scroll;
-    height: 10%;
-    color:black;
-  }
+    .bgimg-1,
+    .bgimg-2 {
+        background-attachment: scroll;
+        height: 100%;
+        color: black;
+    }
+    .bgimg-2 {
+        background-attachment: scroll;
+        height: 10%;
+        color: black;
+    }
 }
 
 @media (max-width: 800px) {
-  .mobileitem{
-    width: 331px!important;
-    margin:auto;
-  }
-
-  .mainholder{
-    margin:auto;
-    text-align:center;
-    width:331px!important;
-    padding: 0px!important;
-    padding-top:60px!important;
-  }
-
-  .holderitems{
-    padding-top:8px;
-    padding-bottom:8px;
-    margin: 0px!important;
-  }
-
-  .holderformtext{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    float: left;
-  }
+    .mobileitem {
+        width: 331px!important;
+        margin: auto;
+    }
+    .mainholder {
+        margin: auto;
+        text-align: center;
+        width: 331px!important;
+        padding: 0px!important;
+        padding-top: 60px!important;
+    }
+    .holderitems {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin: 0px!important;
+    }
+    .holderformtext {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        float: left;
+    }
 }

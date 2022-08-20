@@ -1,101 +1,123 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-  height: 100%;
-  color: #777;
-  line-height: 1.8;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: "Poppins", "sans-serif";
+}
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
 }
 
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.carousel-content{
-  width: 100%;
-  height: 600px;
+.carousel-content {
+    width: 100%;
+    height: 600px;
 }
+
+
 /* First image (Logo. Full height) */
+
 .bgimg-1 {
     background-image: url('../images/htmlimages/secondproj.gif');
     min-height: 100%;
-  }
-  
-  /* Second image (Portfolio) */
-  .bgimg-2 {
+}
+
+
+/* Second image (Portfolio) */
+
+.bgimg-2 {
     background-image: url("../images/htmlimages/mountain.jpg");
     min-height: 400px;
-  }
-  
-  /* Third image (Contact) */
-  .bgimg-3 {
+}
+
+
+/* Third image (Contact) */
+
+.bgimg-3 {
     background-image: url("https://cdnb.artstation.com/p/assets/images/images/022/116/413/large/timothy-kong-dimitri-54-final-small.jpg?1574176011");
     min-height: 400px;
-  }
-  
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-.preview-image{
-  height: 90%;
-  width: 90%;
-  object-fit: contain;
-}
-.searchbarvalues{
-  display: none
-  }
-
-
-.captionbox{
-  width: 20%;
-  height: 30%;
 }
 
-.carousel-content{
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+.preview-image {
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+.searchbarvalues {
+    display: none
+}
+
+.captionbox {
+    width: 20%;
+    height: 30%;
+}
+
+.carousel-content {
     position: absolute;
-    background-color:black!important;
-    width:30%;
-    height: 30%;  
-    top:10%;
+    background-color: black!important;
+    width: 30%;
+    height: 30%;
+    top: 10%;
     left: 10%;
     z-index: 220;
     color: white;
-  }
-
-.carousel-images{
-  object-fit:contain;
-  height:100%!important;
 }
 
-.carousel-item{
-  height:275px;
+.carousel-images {
+    object-fit: contain;
+    height: 100%!important;
 }
 
-.carousel-control.left, .carousel-control.right {
-  background-image:none !important;
-  filter:none !important;
+.carousel-item {
+    height: 275px;
 }
 
-.gamedescription{
-  height: 400px;
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+    filter: none !important;
+}
+
+.gamedescription {
+    height: 400px;
 }
 
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-  .carousel-content{
-    height:400px;
-  }
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+    .carousel-content {
+        height: 400px;
+    }
 }
 
-
 @media only screen and (max-device-width: 600px) {
-  .carousel-item{
-    height:300px;
-  }
+    .carousel-item {
+        height: 300px;
+    }
 }
